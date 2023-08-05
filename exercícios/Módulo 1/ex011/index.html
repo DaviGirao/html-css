@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .ata {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="ata">
+        <h1>Imagem dinâmica</h1>
+        <p>Tente abrir este site em vários dispositivos ou simplesmanete tente mudar o tamanho do site.</p>
+        <h2>Imagem grande</h2>
+        <picture>
+            <source media="(max-width: 750px)" srcset="html.celular.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="html.t,n.png" type="Image/png" >
+            <img src="html.g.png" alt="">
+        </picture>
+        <h1>Reproduzindo audios</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <audio preload="auto" autoplay controls>
+            <source src="mídia/Body of Water - TrackTribe.mp3" type="audio/mpeg">
+            <source src="mídia/Body of Water - TrackTribe.ogg" type="audio/ogg">
+            <source src="mídia/Body of Water - TrackTribe.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+        </audio>
+    </div>
+</body>
+</html>

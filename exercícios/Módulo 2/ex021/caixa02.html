@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        body {
+            background-image: url(https://criticalhits.com.br/wp-content/uploads/2020/09/one-piece-wano-capital-das-flores.jpg);
+            font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            width: 700px;
+            margin: 64px auto auto auto;
+            
+        }
+        div {
+            border-radius: 10px;
+            border: 10px solid darkgray;
+            background-color: rgb(127, 198, 202);
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            border: 5px dashed rgb(225, 225, 225);
+        }
+        article > aside {
+            text-align: right;
+        }
+
+        nav {
+            background-color: darkgrey;
+            border: 5px solid rgb(142, 142, 142);
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.494);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(19, 92, 92);
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            border: 5px dashed rgb(225, 225, 225);
+        } 
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: right;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: inset 0px 0px 20px 7px rgba(0, 0, 0, 0.379);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+            </section>
+            <section id="assuntos">
+                <article>
+                        <h2>Notícias sobre o Brasil</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore enim quos consequatur ex eum obcaecati voluptates quibusdam quisquam deleniti deserunt, consectetur corporis id ipsam vitae asperiores mollitia, eveniet provident?</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+                <article id="noticias">
+                </article>
+            </section>
+        </main>
+        <footer>
+            Feito por curso em video
+        </footer>
+        <div id="bola">
+
+        </div>
+    </div>
+</body>
+</html>
