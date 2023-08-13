@@ -46,7 +46,7 @@ header p {
 }
 main {
     font-family: 'Sriracha', sans-serif;
-    font-size: 2.5em;
+    font-size: 1vw;
     max-height: 600px;
     height: 600px;
     min-width: 400px;
