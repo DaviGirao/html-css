@@ -18,14 +18,16 @@ body {
 header {
     background-color: black;
     padding: 70px 0px 70px 70px;
+    margin: 0px;
 }
 
 header h1 {
     color: white;
     text-align: center;
     font-family: 'Passion One', sans-serif;
-    font-size: 5em;
-    width: 94vw;
+    font-size: 4em;
+    width: 100%;
+    margin: 0px;
 }
 
 header p {
@@ -33,6 +35,8 @@ header p {
     text-align: center;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
 }
 
 #lin {
@@ -40,17 +44,19 @@ header p {
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    width: 94vw;
 }
 
 #lin:hover {
     text-decoration: underline;
     color: rgb(230, 230, 230);
+    width: 94vw;
 }
 main {
     font-family: 'Sriracha', sans-serif;
     font-size: 2vw;
     height: 600px;
-    width: 98.78vw;
+    width: 100%;
 }
 
 main p {
