@@ -15,10 +15,12 @@ body {
     background-color: aqua;
 }
 
+
 header {
     background-color: black;
     padding: 70px 0px 70px 70px;
     margin: 0px;
+    width: 88.5%;
 }
 
 header h1 {
@@ -91,7 +93,7 @@ main p {
 
 .trans {
     background-color: rgba(0, 0, 0, 0.465);
-    width: 60px;
+    width: 30%;
     margin: 20px;
     color: white;
     padding-bottom: 140px;
