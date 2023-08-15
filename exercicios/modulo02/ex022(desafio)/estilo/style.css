@@ -25,6 +25,7 @@ header h1 {
     text-align: center;
     font-family: 'Passion One', sans-serif;
     font-size: 5em;
+    width: 98.78vw;
 }
 
 header p {
@@ -59,6 +60,7 @@ main p {
     padding-bottom: 100px;
     padding-left: 50px;
     padding-right: 10px;
+    width: 98.78vw;
 }
 
 .branco {
